@@ -4,6 +4,8 @@
  */
 package git;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Asus
@@ -17,7 +19,14 @@ public class Git {
         
         System.out.println("Hello World");
         int a = 1;
-        System.out.println();
+        System.out.println(a);
+        
+        Scanner scn = new Scanner(System.in);
+        
+        System.out.println("Name: ");
+        String name = scn.nextLine();
+        
+        System.out.println("Your name is: " + name);
     }
     
 }
